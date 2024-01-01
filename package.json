@@ -1,0 +1,31 @@
+{
+  "name": "interexy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "1st-task": "node dist/task-1/index.js",
+    "2nd-task": "node dist/task-2/index.js",
+    "3rd-task": "node dist/task-3/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/express-validator": "^3.0.0",
+    "@types/mongoose": "^5.11.97",
+    "@types/winston": "^2.4.4",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "express-winston": "^4.2.0",
+    "mongoose": "^8.0.3",
+    "winston": "^3.11.0"
+  }
+}
